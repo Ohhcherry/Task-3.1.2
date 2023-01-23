@@ -5,13 +5,11 @@ package ru.ohhcherry.springmvc.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 import ru.ohhcherry.springmvc.model.User;
 
 import java.util.List;
 
 @Component
-@Transactional
 public class UserDaoImpl implements UserDAO {
 
     @PersistenceContext
