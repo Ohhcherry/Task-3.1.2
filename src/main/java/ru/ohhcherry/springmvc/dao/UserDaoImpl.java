@@ -4,12 +4,12 @@ package ru.ohhcherry.springmvc.dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import ru.ohhcherry.springmvc.model.User;
 
 import java.util.List;
 
-@Component
+@Repository
 public class UserDaoImpl implements UserDAO {
 
     @PersistenceContext
